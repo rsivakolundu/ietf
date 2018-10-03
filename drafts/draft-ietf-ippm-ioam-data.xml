@@ -1094,7 +1094,7 @@ The trace option data MUST be 4-octet aligned:
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ]]></artwork>
                 </figure></t>
-		  
+
               <t hangText="Checksum Complement:">4-octet node data which
               contains a two-octet Checksum Complement field, and a 2-octet
               reserved field. The Checksum Complement is useful when IOAM is
