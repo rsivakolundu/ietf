@@ -842,10 +842,10 @@ The trace option data MUST be 4-octet aligned:
                   <t hangText="Bit 10">When set indicates presence of app_data
                   wide in the node data.</t>
 
-                  <t hangText="Bit 11">When set indicates presence of buffer 
-	          occupancy.</t>
-
-                  <t hangText="Bit 12-23">Undefined. An IOAM encapsulating
+		  <t hangText="Bit 11">When set indicates presence of the
+                  Checksum Complement node data.</t>
+		      
+                  <t hangText="Bit 12-15">Undefined. An IOAM encapsulating
                   node must set the value of each of these bits to 0. If an
                   IOAM transit node receives a packet with one or more of
                   these bits set to 1, it must either: <list style="numbers">
@@ -857,8 +857,6 @@ The trace option data MUST be 4-octet aligned:
 
                       <t>Not add any node data fields to the packet, even for
                       the IOAM-Trace-Type bits defined above.</t>
-		  <t hangText="Bit 22">When set indicates presence of the
-                  Checksum Complement node data.</t>
                     </list></t>
                 </list></t>
 
