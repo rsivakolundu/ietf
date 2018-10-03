@@ -1800,7 +1800,7 @@ IOAM proof of transit option of IOAM POT Type 0:
 
       <t>The data elements of IOAM can be used for network reconnaissance,
       allowing attackers to collect information about network paths,
-      performance, queue states and other information.</t>
+      performance, queue states, and other information.</t>
 	    
       <t>IOAM can be used as a means for implementing Denial of Service (DoS)
       attacks, or for amplifying them. For example, a malicious attacker can
