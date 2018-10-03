@@ -842,7 +842,7 @@ The trace option data MUST be 4-octet aligned:
                   <t hangText="Bit 10">When set indicates presence of app_data
                   wide in the node data.</t>
 
-		   <t hangText="Bit 11">When set indicates presence of the
+		    <t hangText="Bit 11">When set indicates presence of the
                   Checksum Complement node data.</t>
 		      
                   <t hangText="Bit 12-15">Undefined. An IOAM encapsulating
@@ -1800,8 +1800,8 @@ IOAM proof of transit option of IOAM POT Type 0:
 
       <t>The data elements of IOAM can be used for network reconnaissance,
       allowing attackers to collect information about network paths,
-      performance, queue states, buffer occupancy and other information.</t>
-
+      performance, queue states and other information.</t>
+	    
       <t>IOAM can be used as a means for implementing Denial of Service (DoS)
       attacks, or for amplifying them. For example, a malicious attacker can
       add an IOAM header to packets in order to consume the resources of
